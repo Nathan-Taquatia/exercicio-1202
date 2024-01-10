@@ -1,0 +1,85 @@
+.container{
+    width: 50%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    border: 1 solid black;
+    margin: 0 auto;
+    align-self: auto;
+
+    
+
+}
+ 
+.botoes{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 10px;
+    
+}
+.titulo{
+    font-size: x-large;
+    font-weight: bold;
+
+
+}
+
+
+.container input{
+width: 100%;
+box-sizing: border-box;
+height: 40px;
+border-radius: 15px;
+border: 1px solid;
+}
+
+.botoes button{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.email{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 1px solid;
+    box-sizing: border-box; 
+    
+
+}
+
+.senha{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 1px solid;
+    box-sizing: border-box; 
+
+}
+
+.create{
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 1px solid;
+    box-sizing: border-box; 
+}
+.linha{
+    margin-top: 25px;
+    position: relative;
+}
+
